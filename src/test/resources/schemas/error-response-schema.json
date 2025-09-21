@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Error Response Schema",
+  "description": "Schema for validating error responses",
+  "anyOf": [
+    {
+      "required": ["error"],
+      "properties": {
+        "error": {
+          "type": "string",
+          "description": "Error message"
+        }
+      }
+    },
+    {
+      "required": ["message"],
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "Error message"
+        }
+      }
+    },
+    {
+      "required": ["errors"],
+      "properties": {
+        "errors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of error messages"
+        }
+      }
+    },
+    {
+      "required": ["status", "error"],
+      "properties": {
+        "status": {
+          "type": "integer",
+          "description": "HTTP status code"
+        },
+        "error": {
+          "type": "string",
+          "description": "Error message"
+        },
+        "message": {
+          "type": "string",
+          "description": "Detailed error message"
+        },
+        "timestamp": {
+          "type": "string",
+          "description": "Error timestamp"
+        }
+      }
+    }
+  ],
+  "additionalProperties": true
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Ignored tests",
+    "matchedStatuses": ["skipped"]
+  },
+  {
+    "name": "Infrastructure problems",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*ConnectionException.*"
+  },
+  {
+    "name": "Outdated tests",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*FileNotFoundException.*"
+  },
+  {
+    "name": "Product defects",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Test defects",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Authentication Issues",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*401.*|.*403.*|.*Unauthorized.*|.*Forbidden.*"
+  },
+  {
+    "name": "Validation Errors",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*400.*|.*Bad Request.*|.*validation.*"
+  },
+  {
+    "name": "Not Found Errors",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*404.*|.*Not Found.*"
+  },
+  {
+    "name": "Server Errors",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*500.*|.*502.*|.*503.*|.*Internal Server Error.*"
+  },
+  {
+    "name": "Timeout Issues",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*timeout.*|.*TimeoutException.*"
+  }
+]

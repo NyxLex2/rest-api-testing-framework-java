@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Player API Test Suite" parallel="methods" thread-count="3" verbose="2">
+    <parameter name="environment" value="dev"/>
+    
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <groups>
+        <define name="smoke">
+            <include name="player-create"/>
+            <include name="player-get"/>
+        </define>
+        
+        <define name="regression">
+            <include name="player-create"/>
+            <include name="player-update"/>
+            <include name="player-delete"/>
+            <include name="player-get"/>
+            <include name="player-get-all"/>
+        </define>
+        
+        <define name="negative">
+            <include name="validation"/>
+            <include name="authorization"/>
+            <include name="boundary"/>
+        </define>
+    </groups>
+
+    <!-- Player API Tests -->
+    <test name="Player Create Tests" preserve-order="false">
+        <classes>
+            <class name="com.automation.testing.tests.PlayerCreateTests"/>
+        </classes>
+    </test>
+
+    <test name="Player Update Tests" preserve-order="false">
+        <classes>
+            <class name="com.automation.testing.tests.PlayerUpdateTests"/>
+        </classes>
+    </test>
+
+    <test name="Player Delete Tests" preserve-order="false">
+        <classes>
+            <class name="com.automation.testing.tests.PlayerDeleteTests"/>
+        </classes>
+    </test>
+
+    <test name="Player Get Tests" preserve-order="false">
+        <classes>
+            <class name="com.automation.testing.tests.PlayerGetTests"/>
+        </classes>
+    </test>
+</suite>
+
+

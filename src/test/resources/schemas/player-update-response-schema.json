@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Player Update Response Schema",
+  "description": "Schema for validating player update response",
+  "required": ["id", "age", "gender", "login", "role", "screenName"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "format": "int64",
+      "minimum": 1,
+      "description": "Unique identifier for the player"
+    },
+    "age": {
+      "type": "integer",
+      "format": "int32",
+      "minimum": 16,
+      "maximum": 60,
+      "description": "Player's age"
+    },
+    "gender": {
+      "type": "string",
+      "enum": ["male", "female"],
+      "description": "Player's gender"
+    },
+    "login": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Player's login username"
+    },
+    "role": {
+      "type": "string",
+      "enum": ["supervisor", "admin", "user"],
+      "description": "Player's role in the system"
+    },
+    "screenName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Player's screen name"
+    }
+  },
+  "additionalProperties": false
+}
+
+
