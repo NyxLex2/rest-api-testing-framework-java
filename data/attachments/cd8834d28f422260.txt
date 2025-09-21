@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":1920903504,"login":"macie.kulas_1758481749776","screenName":"Moltresest_1758481750219","gender":"","age":47,"role":"user"}

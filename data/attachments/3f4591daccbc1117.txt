@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":546730288,"login":"rosalba.gerhold_1758481747785","screenName":"Exeggutoroccaecati_1758481748236","gender":"male","age":0,"role":"user"}

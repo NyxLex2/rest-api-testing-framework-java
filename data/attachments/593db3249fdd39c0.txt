@@ -1,5 +1,0 @@
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Sun, 21 Sep 2025 19:08:58 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive

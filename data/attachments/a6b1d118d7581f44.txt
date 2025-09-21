@@ -1,0 +1,1 @@
+Expected status code 400 but got 200. Response: {"id":1135535095,"login":"zackary.kreiger_1758482119266","screenName":"Squirtleeligendi_1758482119937","gender":"male","age":18,"role":"user"}

@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":1471601448,"login":"loida.hickle_1758481725259","password":null,"screenName":null,"gender":null,"age":null,"role":null}

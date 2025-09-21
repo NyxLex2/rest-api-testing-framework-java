@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":7440555,"login":"daria.dickens_1758481726203","password":null,"screenName":null,"gender":null,"age":null,"role":null}
