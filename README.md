@@ -19,9 +19,9 @@ A comprehensive, production-ready API automation testing framework built with Ja
 
 ## API Endpoints Covered
 
-- **POST** `/player/create` - Player creation with validation
-- **PUT** `/player/update/{id}` - Player updates with roleEnum-based access
-- **DELETE** `/player/delete` - Player deletion with business rules
+- **POST** `/player/create/{editor}` - Player creation with validation
+- **PATCH** `/player/update/{editor}/{id}` - Player updates with roleEnum-based access
+- **DELETE** `/player/delete/{editor}` - Player deletion with business rules
 - **POST** `/player/get` - Get player by ID
 - **GET** `/player/get/all` - Get all players
 
