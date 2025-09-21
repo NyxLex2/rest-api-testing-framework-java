@@ -9,6 +9,7 @@ A comprehensive, production-ready API automation testing framework built with Ja
 - **Comprehensive Testing**: Positive, negative, boundary, and roleEnum-based access tests
 - **Parallel Execution**: Configurable thread-based parallel test execution (3 threads by default)
 - **Advanced Reporting**: Allure integration with detailed reports, attachments, and steps
+- **Live Test Reports**: 📊 **[View Latest Allure Report](https://nyxlex2.github.io/rest-api-testing-framework-java)**
 - **JSON Schema Validation**: Automated response validation against JSON schemas
 - **Test Data Generation**: Faker-based realistic test data with uniqueness guarantees
 - **Multi-Environment Support**: Dev, QA, and Production configurations
@@ -62,6 +63,8 @@ mvn clean test -Dgroups="negative,boundary"
 
 ### Allure Reports
 Generate and view detailed Allure reports:
+
+**🌐 [Live Allure Report](https://nyxlex2.github.io/rest-api-testing-framework-java)** - View the latest test execution results
 
 ```bash
 # Generate report
