@@ -38,7 +38,7 @@ jobs:
           sudo apt-get install -y unzip curl
           curl -sL https://github.com/allure-framework/allure2/releases/download/2.23.1/allure-2.23.1.zip -o allure.zip
           unzip allure.zip -d allure
-          allure/bin/allure generate target/allure-results --clean -o target/allure-report
+          allure/allure-2.23.1/bin/allure generate target/allure-results --clean -o target/allure-report
 
       - name: Upload Allure report as artifact
         if: always()
