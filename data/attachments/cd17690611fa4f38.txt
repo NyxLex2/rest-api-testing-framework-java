@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":1223029725,"login":"ezekiel.bergstrom_1758482643664","screenName":"Weedleerror_1758482644312","gender":"male","age":15,"role":"user"}

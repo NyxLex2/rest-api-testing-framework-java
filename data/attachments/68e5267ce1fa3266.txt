@@ -1,0 +1,13 @@
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: instance failed to match at least one required schema among 4
+    level: "error"
+    schema: {"loadingURI":"#","pointer":""}
+    instance: {"pointer":""}
+    domain: "validation"
+    keyword: "anyOf"
+    nrSchemas: 4
+    reports: {"/anyOf/0":[{"level":"error","schema":{"loadingURI":"#","pointer":"/anyOf/0"},"instance":{"pointer":""},"domain":"validation","keyword":"required","message":"object has missing required properties ([\"error\"])","required":["error"],"missing":["error"]}],"/anyOf/1":[{"level":"error","schema":{"loadingURI":"#","pointer":"/anyOf/1"},"instance":{"pointer":""},"domain":"validation","keyword":"required","message":"object has missing required properties ([\"message\"])","required":["message"],"missing":["message"]}],"/anyOf/2":[{"level":"error","schema":{"loadingURI":"#","pointer":"/anyOf/2"},"instance":{"pointer":""},"domain":"validation","keyword":"required","message":"object has missing required properties ([\"errors\"])","required":["errors"],"missing":["errors"]}],"/anyOf/3":[{"level":"error","schema":{"loadingURI":"#","pointer":"/anyOf/3"},"instance":{"pointer":""},"domain":"validation","keyword":"required","message":"object has missing required properties ([\"error\",\"status\"])","required":["error","status"],"missing":["error","status"]}]}
+
+  Actual: {"id":986336812,"login":"rana.mclaughlin_1758483130156","screenName":"Dewgongaspernatur_1758483130156","gender":"male","age":25,"role":"user"}

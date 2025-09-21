@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":1604803225,"login":"maragret.bernhard_1758482648505","screenName":"Poliwhirlrecusandae_1758482648505","gender":"male","age":25,"role":"user"}
