@@ -1,1 +1,0 @@
-Expected status code 400 but got 200. Response: {"id":708815133,"login":"ismael.lubowitz_1758482082655","password":null,"screenName":null,"gender":null,"age":null,"role":null}

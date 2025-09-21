@@ -1,0 +1,1 @@
+Expected status code 400 but got 200. Response: {"id":1640000342,"login":"lazaro.rath_1758482647536","screenName":"Poliwrathinventore_1758482648176","gender":"male","age":38,"role":"user"}

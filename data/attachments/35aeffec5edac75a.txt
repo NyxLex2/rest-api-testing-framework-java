@@ -1,8 +1,0 @@
-Vary=Origin
-Vary=Access-Control-Request-Method
-Vary=Access-Control-Request-Headers
-Content-Type=application/json
-Transfer-Encoding=chunked
-Date=Sun, 21 Sep 2025 19:15:36 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive

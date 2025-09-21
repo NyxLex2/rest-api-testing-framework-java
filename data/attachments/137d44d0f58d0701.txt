@@ -1,0 +1,1 @@
+Expected status code 400 but got 200. Response: {"id":1107708237,"login":"jaunita.champlin_1758482644618","screenName":"Golemsit_1758482645276","gender":"invalid","age":45,"role":"user"}

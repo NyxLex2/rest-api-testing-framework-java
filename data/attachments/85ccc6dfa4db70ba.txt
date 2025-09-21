@@ -1,3 +1,0 @@
-Date=Sun, 21 Sep 2025 19:15:37 GMT
-Keep-Alive=timeout=60
-Connection=keep-alive
