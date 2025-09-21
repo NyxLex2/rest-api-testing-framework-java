@@ -6,16 +6,16 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
 
-import com.automation.testing.enums.GenderEnum;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.automation.testing.base.BaseTest;
 import com.automation.testing.builders.PlayerUpdateRequestBuilder;
 import com.automation.testing.data.PlayerTestData;
+import com.automation.testing.data.TestDataProviders;
 import com.automation.testing.dto.response.PlayerCreateResponseDto;
 import com.automation.testing.dto.response.PlayerUpdateResponseDto;
+import com.automation.testing.enums.GenderEnum;
 
 import static com.automation.testing.enums.RoleEnum.SUPERVISOR;
 
@@ -59,15 +59,7 @@ public class PlayerUpdateTests extends BaseTest {
         assertEquals(actual.getId(), createdPlayer.getId(), "Player ID should remain unchanged");
     }
 
-    @DataProvider(name = "validGendersUpdate")
-    public Object[][] validGendersUpdateProvider() {
-        return new Object[][]{
-                {GenderEnum.MALE},
-                {GenderEnum.FEMALE}
-        };
-    }
-
-    @Test(dataProvider = "validGendersUpdate")
+    @Test(dataProvider = "validGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player update with valid gender - minimal validation only")
     public void testUpdatePlayerWithValidGender(GenderEnum genderEnum) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
@@ -105,14 +97,7 @@ public class PlayerUpdateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 200);
     }
 
-    @DataProvider(name = "invalidAges")
-    public Object[][] invalidAgesProvider() {
-        return new Object[][]{
-                {-1}, {0}, {15}, {61}, {200}
-        };
-    }
-
-    @Test(dataProvider = "invalidAges")
+    @Test(dataProvider = "invalidAges", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid age")
     public void testUpdatePlayerWithInvalidAge(Integer invalidAge) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
@@ -126,18 +111,7 @@ public class PlayerUpdateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 400);
     }
 
-    @DataProvider(name = "invalidPasswordsUpdate")
-    public Object[][] invalidPasswordsUpdateProvider() {
-        return new Object[][]{
-                {""},
-                {"short"},
-                {"nouppercase123"},
-                {"NOLOWERCASE123"},
-                {"NoDigitsHere"}
-        };
-    }
-
-    @Test(dataProvider = "invalidPasswordsUpdate")
+    @Test(dataProvider = "invalidPasswords", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid password (BUG-003)")
     public void testUpdatePlayerWithInvalidPassword(String invalidPassword) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
@@ -150,18 +124,7 @@ public class PlayerUpdateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 400);
     }
 
-    @DataProvider(name = "invalidGendersUpdate")
-    public Object[][] invalidGendersUpdateProvider() {
-        return new Object[][]{
-                {"unknown"},
-                {"other"},
-                {"invalid"},
-                {""},
-                {"123"}
-        };
-    }
-
-    @Test(dataProvider = "invalidGendersUpdate")
+    @Test(dataProvider = "invalidGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid gender")
     public void testUpdatePlayerWithInvalidGender(String invalidGender) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
@@ -175,19 +138,7 @@ public class PlayerUpdateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 400);
     }
 
-    @DataProvider(name = "invalidRolesUpdate")
-    public Object[][] invalidRolesUpdateProvider() {
-        return new Object[][]{
-                {"manager"},
-                {"guest"},
-                {"moderator"},
-                {"invalid"},
-                {""},
-                {"123"}
-        };
-    }
-
-    @Test(dataProvider = "invalidRolesUpdate")
+    @Test(dataProvider = "invalidRoles", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid role")
     public void testUpdatePlayerWithInvalidRole(String invalidRole) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
@@ -201,17 +152,7 @@ public class PlayerUpdateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 400);
     }
 
-    @DataProvider(name = "boundaryAgesUpdate")
-    public Object[][] boundaryAgesUpdateProvider() {
-        return new Object[][]{
-                {17},
-                {18},
-                {59},
-                {60}
-        };
-    }
-
-    @Test(dataProvider = "boundaryAgesUpdate")
+    @Test(dataProvider = "boundaryAges", dataProviderClass = TestDataProviders.class)
     @Description("Test player update with boundary age - comprehensive validation")
     public void testUpdatePlayerWithBoundaryAge(Integer age) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
@@ -256,7 +197,6 @@ public class PlayerUpdateTests extends BaseTest {
     }
 
     private PlayerCreateResponseDto createTestUserWithSupervisorCredentials() {
-        // Creates a user player using supervisor credentials for creation
         Map<String, Object> requestData = PlayerTestData.validUser();
         return playerApiService.createPlayerWithValidation(SUPERVISOR.getValue(), requestData);
     }

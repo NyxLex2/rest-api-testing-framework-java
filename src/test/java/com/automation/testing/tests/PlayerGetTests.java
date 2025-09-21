@@ -4,20 +4,17 @@ import java.util.Map;
 
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
-
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.automation.testing.base.BaseTest;
 import com.automation.testing.data.PlayerTestData;
+import com.automation.testing.data.TestDataProviders;
 import com.automation.testing.dto.response.PlayerCreateResponseDto;
 import com.automation.testing.dto.response.PlayerGetAllResponseDto;
 import com.automation.testing.dto.response.PlayerGetByPlayerIdResponseDto;
 import com.automation.testing.dto.response.PlayerItem;
-
 import static com.automation.testing.enums.RoleEnum.SUPERVISOR;
-
 import com.automation.testing.services.PlayerApiService;
 import com.automation.testing.utils.JsonSchemaValidator;
 import com.automation.testing.utils.ResponseValidator;
@@ -48,16 +45,7 @@ public class PlayerGetTests extends BaseTest {
         ResponseValidator.validatePlayerGetResponse(actual, createdPlayer);
     }
 
-    @DataProvider(name = "invalidPlayerIds")
-    public Object[][] invalidPlayerIdsProvider() {
-        return new Object[][]{
-                {-1L},
-                {0L},
-                {999999999L}
-        };
-    }
-
-    @Test(dataProvider = "invalidPlayerIds")
+    @Test(dataProvider = "invalidPlayerIds", dataProviderClass = TestDataProviders.class)
     @Description("Test player retrieval failure with invalid ID")
     public void testGetPlayerByInvalidId(Long invalidId) {
         Response response = playerApiService.getPlayerByIdExpectingFailure(invalidId, 200);

@@ -5,20 +5,17 @@ import java.util.Map;
 
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
-
-import com.automation.testing.enums.GenderEnum;
-import com.automation.testing.enums.RoleEnum;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.automation.testing.base.BaseTest;
 import com.automation.testing.builders.PlayerCreateRequestBuilder;
 import com.automation.testing.data.PlayerTestData;
+import com.automation.testing.data.TestDataProviders;
 import com.automation.testing.dto.response.PlayerCreateResponseDto;
-
+import com.automation.testing.enums.GenderEnum;
+import com.automation.testing.enums.RoleEnum;
 import static com.automation.testing.enums.RoleEnum.SUPERVISOR;
-
 import com.automation.testing.services.PlayerApiService;
 import com.automation.testing.utils.JsonSchemaValidator;
 import com.automation.testing.utils.ResponseValidator;
@@ -51,15 +48,7 @@ public class PlayerCreateTests extends BaseTest {
         assertTrue(actual.getId() > 0, "Player ID should be positive");
     }
 
-    @DataProvider(name = "validRoles")
-    public Object[][] validRolesProvider() {
-        return new Object[][]{
-                {RoleEnum.USER},
-                {RoleEnum.ADMIN}
-        };
-    }
-
-    @Test(dataProvider = "validRoles")
+    @Test(dataProvider = "validRoles", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation with valid role - comprehensive validation")
     public void testCreatePlayerWithValidRole(RoleEnum roleEnum) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
@@ -82,15 +71,7 @@ public class PlayerCreateTests extends BaseTest {
         playerApiService.createPlayerExpectingFailure(SUPERVISOR.getValue(), requestData, 400);
     }
 
-    @DataProvider(name = "validGenders")
-    public Object[][] validGendersProvider() {
-        return new Object[][]{
-                {GenderEnum.MALE},
-                {GenderEnum.FEMALE}
-        };
-    }
-
-    @Test(dataProvider = "validGenders")
+    @Test(dataProvider = "validGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation with valid gender")
     public void testCreatePlayerWithValidGender(GenderEnum genderEnum) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
@@ -103,17 +84,7 @@ public class PlayerCreateTests extends BaseTest {
         ResponseValidator.validatePlayerCreateResponse(actual, requestData);
     }
 
-    @DataProvider(name = "boundaryAges")
-    public Object[][] boundaryAgesProvider() {
-        return new Object[][]{
-                {17}, // Minimum valid (workaround for BUG-002)
-                {18},
-                {59},
-                {60}
-        };
-    }
-
-    @Test(dataProvider = "boundaryAges")
+    @Test(dataProvider = "boundaryAges", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation with boundary age values - comprehensive validation")
     public void testCreatePlayerWithBoundaryAge(Integer age) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
@@ -141,18 +112,7 @@ public class PlayerCreateTests extends BaseTest {
                 playerApiService.createPlayerExpectingFailure(SUPERVISOR.getValue(), requestData, 400));
     }
 
-    @DataProvider(name = "invalidPasswords")
-    public Object[][] invalidPasswordsProvider() {
-        return new Object[][]{
-                {""},
-                {"short"},
-                {"nouppercase123"},
-                {"NOLOWERCASE123"},
-                {"NoDigitsHere"}
-        };
-    }
-
-    @Test(dataProvider = "invalidPasswords")
+    @Test(dataProvider = "invalidPasswords", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation failure with invalid password (BUG-003)")
     public void testCreatePlayerWithInvalidPassword(String invalidPassword) {
         Map<String, Object> requestData = PlayerTestData.validUser();
@@ -162,18 +122,7 @@ public class PlayerCreateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 400);
     }
 
-    @DataProvider(name = "invalidGenders")
-    public Object[][] invalidGendersProvider() {
-        return new Object[][]{
-                {"unknown"},
-                {"other"},
-                {"invalid"},
-                {""},
-                {"123"}
-        };
-    }
-
-    @Test(dataProvider = "invalidGenders")
+    @Test(dataProvider = "invalidGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation failure with invalid gender")
     public void testCreatePlayerWithInvalidGender(String invalidGender) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
@@ -184,19 +133,7 @@ public class PlayerCreateTests extends BaseTest {
         ResponseValidator.validateErrorResponse(response, 400);
     }
 
-    @DataProvider(name = "invalidRoles")
-    public Object[][] invalidRolesProvider() {
-        return new Object[][]{
-                {"manager"},
-                {"guest"},
-                {"moderator"},
-                {"invalid"},
-                {""},
-                {"123"}
-        };
-    }
-
-    @Test(dataProvider = "invalidRoles")
+    @Test(dataProvider = "invalidRoles", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation failure with invalid role")
     public void testCreatePlayerWithInvalidRole(String invalidRole) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
