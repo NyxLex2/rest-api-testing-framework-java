@@ -20,7 +20,7 @@ import io.restassured.response.Response;
 
 @Epic("Player Management")
 @Feature("Player Deletion with Editor Login")
-public class PlayerDeleteTests extends BaseTest {
+public class DeletePlayerTests extends BaseTest {
 
     private PlayerApiService playerApiService;
 
@@ -150,7 +150,6 @@ public class PlayerDeleteTests extends BaseTest {
     @Test
     @Description("Test deletion with malformed editor login path")
     public void deletePlayerWithMalformedEditorLoginPath() {
-        // Create a player to be deleted
         PlayerCreateResponseDto playerToDelete = createTestPlayerWithSpecificData();
         Long playerId = playerToDelete.getId();
 

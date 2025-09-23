@@ -26,7 +26,7 @@ import io.restassured.response.Response;
 
 @Epic("Player Management")
 @Feature("Player Retrieval")
-public class PlayerGetTests extends BaseTest {
+public class GetPlayerTests extends BaseTest {
     private PlayerApiService playerApiService;
 
     @BeforeClass
@@ -36,7 +36,7 @@ public class PlayerGetTests extends BaseTest {
 
     @Test
     @Description("Test successful player retrieval by valid ID")
-    public void testGetPlayerByValidId() {
+    public void getPlayerByValidIdTest() {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         PlayerGetByPlayerIdResponseDto actual = playerApiService.getPlayerByIdAndParseResponse(
@@ -47,14 +47,14 @@ public class PlayerGetTests extends BaseTest {
 
     @Test(dataProvider = "invalidPlayerIds", dataProviderClass = TestDataProviders.class)
     @Description("Test player retrieval failure with invalid ID")
-    public void testGetPlayerByInvalidId(Long invalidId) {
+    public void getPlayerByInvalidIdTest(Long invalidId) {
         Response response = playerApiService.getPlayerByIdExpectingFailure(invalidId, 200);
         ResponseValidator.validateErrorResponse(response, 200);
     }
 
     @Test
     @Description("Test retrieving all players")
-    public void testGetAllPlayers() {
+    public void getAllPlayersTest() {
         createTestUserWithSupervisorCredentials();
         createTestUserWithSupervisorCredentials();
         createTestUserWithSupervisorCredentials();
@@ -73,7 +73,7 @@ public class PlayerGetTests extends BaseTest {
 
     @Test
     @Description("Test player retrieval response schema validation (Expected to fail due to BUG-001)")
-    public void testGetPlayerResponseSchema() {
+    public void getPlayerResponseSchemaTest() {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         Response response = playerApiService.getPlayerById(createdPlayer.getId());
@@ -85,7 +85,7 @@ public class PlayerGetTests extends BaseTest {
 
     @Test
     @Description("Test get all players response schema validation")
-    public void testGetAllPlayersResponseSchema() {
+    public void getAllPlayersResponseSchemaTest() {
         createTestUserWithSupervisorCredentials();
 
         Response response = playerApiService.getAllPlayers();

@@ -31,25 +31,25 @@
     <!-- Player API Tests -->
     <test name="Player Create Tests" preserve-order="false">
         <classes>
-            <class name="com.automation.testing.tests.PlayerCreateTests"/>
+            <class name="com.automation.testing.tests.CreatePlayerTests"/>
         </classes>
     </test>
 
     <test name="Player Update Tests" preserve-order="false">
         <classes>
-            <class name="com.automation.testing.tests.PlayerUpdateTests"/>
+            <class name="com.automation.testing.tests.UpdatePlayerTests"/>
         </classes>
     </test>
 
     <test name="Player Delete Tests" preserve-order="false">
         <classes>
-            <class name="com.automation.testing.tests.PlayerDeleteTests"/>
+            <class name="com.automation.testing.tests.DeletePlayerTests"/>
         </classes>
     </test>
 
     <test name="Player Get Tests" preserve-order="false">
         <classes>
-            <class name="com.automation.testing.tests.PlayerGetTests"/>
+            <class name="com.automation.testing.tests.GetPlayerTests"/>
         </classes>
     </test>
 </suite>

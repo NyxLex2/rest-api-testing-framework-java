@@ -31,7 +31,7 @@ import io.restassured.response.Response;
 
 @Epic("Player Management")
 @Feature("Player Update")
-public class PlayerUpdateTests extends BaseTest {
+public class UpdatePlayerTests extends BaseTest {
     private PlayerApiService playerApiService;
 
     @BeforeClass
@@ -41,7 +41,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test
     @Description("Test successful player update with valid data - comprehensive validation")
-    public void testUpdatePlayerWithValidData() {
+    public void updatePlayerWithValidDataTest() {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         Integer newAge = TestDataGenerator.getRandomAge(17, 60);
@@ -61,7 +61,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test(dataProvider = "validGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player update with valid gender - minimal validation only")
-    public void testUpdatePlayerWithValidGender(GenderEnum genderEnum) {
+    public void updatePlayerWithValidGenderTest(GenderEnum genderEnum) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         String updateRequestBody = PlayerUpdateRequestBuilder.basicUpdate()
@@ -77,7 +77,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test
     @Description("Test player password update")
-    public void testUpdatePlayerPassword() {
+    public void updatePlayerPasswordTest() {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
         String newPassword = TestDataGenerator.getValidPassword();
 
@@ -89,7 +89,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test
     @Description("Test player update failure with non-existent player ID")
-    public void testUpdateNonExistentPlayer() {
+    public void updateNonExistentPlayerTest() {
         Long nonExistentId = 61459L;
         String updateRequestBody = PlayerUpdateRequestBuilder.basicUpdate().buildAsJson();
 
@@ -99,7 +99,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test(dataProvider = "invalidAges", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid age")
-    public void testUpdatePlayerWithInvalidAge(Integer invalidAge) {
+    public void updatePlayerWithInvalidAgeTest(Integer invalidAge) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         String updateRequestBody = PlayerUpdateRequestBuilder.basicUpdate()
@@ -113,7 +113,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test(dataProvider = "invalidPasswords", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid password (BUG-003)")
-    public void testUpdatePlayerWithInvalidPassword(String invalidPassword) {
+    public void updatePlayerWithInvalidPasswordTest(String invalidPassword) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         String updateRequestBody = PlayerUpdateRequestBuilder.passwordUpdate(invalidPassword)
@@ -126,7 +126,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test(dataProvider = "invalidGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid gender")
-    public void testUpdatePlayerWithInvalidGender(String invalidGender) {
+    public void updatePlayerWithInvalidGenderTest(String invalidGender) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         String updateRequestBody = PlayerUpdateRequestBuilder.basicUpdate()
@@ -140,7 +140,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test(dataProvider = "invalidRoles", dataProviderClass = TestDataProviders.class)
     @Description("Test player update failure with invalid role")
-    public void testUpdatePlayerWithInvalidRole(String invalidRole) {
+    public void updatePlayerWithInvalidRoleTest(String invalidRole) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         String updateRequestBody = PlayerUpdateRequestBuilder.basicUpdate()
@@ -154,7 +154,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test(dataProvider = "boundaryAges", dataProviderClass = TestDataProviders.class)
     @Description("Test player update with boundary age - comprehensive validation")
-    public void testUpdatePlayerWithBoundaryAge(Integer age) {
+    public void updatePlayerWithBoundaryAgeTest(Integer age) {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
         String newScreenName = TestDataGenerator.getUniqueScreenName();
 
@@ -172,7 +172,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test
     @Description("Test player update with empty request body")
-    public void testUpdatePlayerWithEmptyBodyFails() {
+    public void updatePlayerWithEmptyBodyFailsTest() {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         Response response = playerApiService.updatePlayerExpectingFailure(
@@ -182,7 +182,7 @@ public class PlayerUpdateTests extends BaseTest {
 
     @Test
     @Description("Test player update response schema validation (Expected to fail due to BUG-001)")
-    public void testUpdatePlayerResponseSchema() {
+    public void updatePlayerResponseSchemaTest() {
         PlayerCreateResponseDto createdPlayer = createTestUserWithSupervisorCredentials();
 
         String updateRequestBody = PlayerUpdateRequestBuilder.basicUpdate()

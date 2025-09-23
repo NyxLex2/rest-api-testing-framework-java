@@ -5,6 +5,7 @@ import java.util.Map;
 
 import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -15,7 +16,9 @@ import com.automation.testing.data.TestDataProviders;
 import com.automation.testing.dto.response.PlayerCreateResponseDto;
 import com.automation.testing.enums.GenderEnum;
 import com.automation.testing.enums.RoleEnum;
+
 import static com.automation.testing.enums.RoleEnum.SUPERVISOR;
+
 import com.automation.testing.services.PlayerApiService;
 import com.automation.testing.utils.JsonSchemaValidator;
 import com.automation.testing.utils.ResponseValidator;
@@ -28,7 +31,7 @@ import io.restassured.response.Response;
 
 @Epic("Player Management")
 @Feature("Player Creation")
-public class PlayerCreateTests extends BaseTest {
+public class CreatePlayerTests extends BaseTest {
     private PlayerApiService playerApiService;
 
     @BeforeClass
@@ -38,7 +41,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test player creation with valid data - comprehensive validation")
-    public void testCreatePlayerWithValidData() {
+    public void createPlayerWithValidDataTest() {
         Map<String, Object> requestData = PlayerTestData.validUser();
 
         PlayerCreateResponseDto actual = playerApiService.createPlayerWithValidation(SUPERVISOR.getValue(),
@@ -50,12 +53,11 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test(dataProvider = "validRoles", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation with valid role - comprehensive validation")
-    public void testCreatePlayerWithValidRole(RoleEnum roleEnum) {
+    public void createPlayerWithValidRoleTest(RoleEnum roleEnum) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
                 .withRole(roleEnum)
                 .build();
 
-        // Use comprehensive validation: minimal response + full persistence validation
         PlayerCreateResponseDto actual = playerApiService.createPlayerWithValidation(SUPERVISOR.getValue(),
                 requestData);
         assertNotNull(actual.getId(), "Player ID should be generated");
@@ -63,7 +65,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test that supervisor cannot create another supervisor (Known Business Rule)")
-    public void testCreateSupervisorBySupervisorFails() {
+    public void createSupervisorBySupervisorFailsTest() {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
                 .withRole(SUPERVISOR)
                 .build();
@@ -73,7 +75,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test(dataProvider = "validGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation with valid gender")
-    public void testCreatePlayerWithValidGender(GenderEnum genderEnum) {
+    public void createPlayerWithValidGenderTest(GenderEnum genderEnum) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
                 .withGender(genderEnum)
                 .build();
@@ -86,7 +88,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test(dataProvider = "boundaryAges", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation with boundary age values - comprehensive validation")
-    public void testCreatePlayerWithBoundaryAge(Integer age) {
+    public void createPlayerWithBoundaryAgeTest(Integer age) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
                 .withAge(age)
                 .build();
@@ -98,7 +100,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test player creation with invalid age below minimum")
-    public void testCreatePlayerWithInvalidAgeBelowMinimum() {
+    public void createPlayerWithInvalidAgeBelowMinimumTest() {
         Map<String, Object> requestData = PlayerTestData.invalidAgeTooLow();
         ResponseValidator.validateErrorResponse(
                 playerApiService.createPlayerExpectingFailure(SUPERVISOR.getValue(), requestData, 400));
@@ -106,7 +108,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test player creation with invalid age above maximum")
-    public void testCreatePlayerWithInvalidAgeAboveMaximum() {
+    public void createPlayerWithInvalidAgeAboveMaximumTest() {
         Map<String, Object> requestData = PlayerTestData.invalidAgeTooHigh();
         ResponseValidator.validateErrorResponse(
                 playerApiService.createPlayerExpectingFailure(SUPERVISOR.getValue(), requestData, 400));
@@ -114,7 +116,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test(dataProvider = "invalidPasswords", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation failure with invalid password (BUG-003)")
-    public void testCreatePlayerWithInvalidPassword(String invalidPassword) {
+    public void createPlayerWithInvalidPasswordTest(String invalidPassword) {
         Map<String, Object> requestData = PlayerTestData.validUser();
         requestData.put("password", invalidPassword);
 
@@ -124,7 +126,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test(dataProvider = "invalidGenders", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation failure with invalid gender")
-    public void testCreatePlayerWithInvalidGender(String invalidGender) {
+    public void createPlayerWithInvalidGenderTest(String invalidGender) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
                 .withGender(invalidGender)
                 .build();
@@ -135,7 +137,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test(dataProvider = "invalidRoles", dataProviderClass = TestDataProviders.class)
     @Description("Test player creation failure with invalid role")
-    public void testCreatePlayerWithInvalidRole(String invalidRole) {
+    public void createPlayerWithInvalidRoleTest(String invalidRole) {
         Map<String, Object> requestData = new PlayerCreateRequestBuilder()
                 .withRole(invalidRole)
                 .build();
@@ -146,7 +148,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test player creation failure with a missing login field")
-    public void testCreatePlayerWithMissingLoginFails() {
+    public void createPlayerWithMissingLoginFailsTest() {
         Map<String, Object> requestData = PlayerTestData.validUser();
         requestData.remove("login");
 
@@ -156,7 +158,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test player creation failure with an empty request body")
-    public void testCreatePlayerWithEmptyBodyFails() {
+    public void createPlayerWithEmptyBodyFailsTest() {
         Map<String, Object> requestData = new HashMap<>();
         Response response = playerApiService.createPlayerExpectingFailure(SUPERVISOR.getValue(), requestData, 400);
         ResponseValidator.validateErrorResponse(response, 400);
@@ -164,7 +166,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test that creating a player with a duplicate login fails with 409 Conflict (BUG-004)")
-    public void testCreatePlayerWithDuplicateLoginFails() {
+    public void createPlayerWithDuplicateLoginFailsTest() {
         String existingLogin = TestDataGenerator.getUniqueLogin();
         Map<String, Object> initialRequest = PlayerTestData.validUser();
         initialRequest.put("login", existingLogin);
@@ -177,7 +179,7 @@ public class PlayerCreateTests extends BaseTest {
 
     @Test
     @Description("Test player creation response schema validation (Expected to fail due to BUG-001)")
-    public void testCreatePlayerResponseSchema() {
+    public void createPlayerResponseSchemaTest() {
         Map<String, Object> requestData = PlayerTestData.validUser();
 
         Response response = playerApiService.createPlayer(SUPERVISOR.getValue(), requestData);
