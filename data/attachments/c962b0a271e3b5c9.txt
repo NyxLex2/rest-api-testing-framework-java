@@ -1,6 +1,0 @@
-Object comparison failed with 5 field mismatch(es):
-  age: expected=null, actual=25
-  gender: expected=null, actual=male
-  password: expected=null, actual=*9#N*7y&
-  role: expected=null, actual=user
-  screenName: expected=null, actual=Arcaninenumquam_1758483156803

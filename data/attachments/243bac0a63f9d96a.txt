@@ -1,0 +1,2973 @@
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/0"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/1"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/2"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/3"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/4"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/5"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/6"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/7"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/8"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/9"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/10"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/11"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/12"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/13"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/14"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/15"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/16"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/17"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/18"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/19"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/20"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/21"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/22"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/23"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/24"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/25"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/26"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/27"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/28"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/29"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/30"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/31"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/32"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/33"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/34"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/35"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/36"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/37"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/38"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/39"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/40"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/41"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/42"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/43"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/44"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/45"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/46"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/47"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/48"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/49"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/50"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/51"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/52"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/53"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/54"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/55"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/56"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/57"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/58"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/59"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/60"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/61"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/62"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/63"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/64"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/65"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/66"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/67"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/68"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/69"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/70"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/71"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/72"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/73"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/74"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/75"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/76"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/77"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/78"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/79"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/80"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/81"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/82"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/83"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/84"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/85"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/86"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/87"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/88"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/89"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/90"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/91"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/92"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/93"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/94"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/95"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/96"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/97"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/98"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/99"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/100"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/101"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/102"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/103"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/104"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/105"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/106"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/107"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/108"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/109"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/110"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/111"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/112"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/113"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/114"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/115"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/116"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/117"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/118"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/119"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/120"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/121"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/122"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/123"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/124"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/125"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/126"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/127"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/128"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/129"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/130"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/131"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/132"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/133"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/134"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/135"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/136"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/137"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/138"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/139"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/140"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/141"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/142"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/143"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/144"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/145"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/146"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/147"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/148"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/149"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/150"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/151"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/152"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/153"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/154"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/155"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/156"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/157"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/158"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/159"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/160"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/161"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/162"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/163"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/164"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/165"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/166"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/167"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/168"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/169"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/170"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/171"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/172"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/173"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/174"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/175"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/176"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/177"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/178"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/179"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/180"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/181"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/182"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/183"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/184"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/185"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/186"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/187"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/188"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/189"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/190"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/191"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/192"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/193"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/194"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/195"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/196"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/197"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/198"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/199"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/200"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/201"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/202"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/203"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/204"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/205"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/206"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/207"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/208"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/209"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/210"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/211"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/212"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/213"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/214"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/215"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/216"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/217"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/218"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/219"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/220"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/221"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/222"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/223"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/224"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/225"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/226"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/227"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/228"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/229"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/230"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/231"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/232"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/233"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/234"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/235"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/236"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/237"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/238"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/239"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/240"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/241"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/242"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/243"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/244"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/245"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/246"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/247"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/248"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/249"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/250"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/251"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/252"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/253"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/254"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/255"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/256"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/257"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/258"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/259"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/260"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/261"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/262"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/263"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/264"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/265"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/266"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/267"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/268"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/269"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/270"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/271"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/272"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/273"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/274"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/275"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/276"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/277"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/278"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/279"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/280"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/281"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/282"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/283"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/284"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/285"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/286"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/287"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/288"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/289"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/290"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/291"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/292"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/293"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/294"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/295"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/296"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/297"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/298"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/299"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/300"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/301"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/302"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/303"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/304"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/305"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/306"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/307"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/308"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/309"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/310"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/311"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/312"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/313"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/314"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/315"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/316"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/317"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/318"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/319"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/320"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/321"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/322"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/323"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/324"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/325"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/326"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/327"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/328"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/329"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/330"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/331"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/332"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/333"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/334"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/335"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/336"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/337"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/338"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/339"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/340"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/341"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/342"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/343"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/344"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/345"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/346"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/347"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/348"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/349"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/350"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/351"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/352"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/353"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/354"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/355"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/356"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/357"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/358"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/359"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/360"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/361"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/362"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/363"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/364"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/365"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/366"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/367"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/368"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/369"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+error: object has missing required properties (["role"])
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/properties/players/items"}
+    instance: {"pointer":"/players/370"}
+    domain: "validation"
+    keyword: "required"
+    required: ["age","gender","id","role","screenName"]
+    missing: ["role"]
+
+  Actual: {"players":[{"id":1,"screenName":"testSupervisor","gender":"male","age":28},{"id":316768843,"screenName":"Electrodeaut_1758481753103","gender":"male","age":25},{"id":1820018251,"screenName":"Drowzeeat_1758481753545","gender":"male","age":33},{"id":487162125,"screenName":"Poliwhirlea_1758481754197","gender":"male","age":25},{"id":1039153316,"screenName":"Machokevoluptas_1758481754202","gender":"male","age":30},{"id":1675927435,"screenName":"Vaporeontemporibus_1758481754862","gender":"male","age":20},{"id":1749484429,"screenName":"Golemamet_1758481755303","gender":"male","age":27},{"id":1715671934,"screenName":"Magnetondolores_1758481755969","gender":"female","age":44},{"id":1848073704,"screenName":"Dragonitevel_1758481760434","gender":"male","age":60},{"id":1602264078,"screenName":"Clefairyiste_1758481771125","gender":"male","age":25},{"id":1597026676,"screenName":"Staryusimilique_1758481771125","gender":"male","age":25},{"id":928688347,"screenName":"Mewtwoculpa_1758481771125","gender":"male","age":25},{"id":830753237,"screenName":"Zapdosassumenda_1758481771795","gender":"male","age":25},{"id":1767940517,"screenName":"Tangelasuscipit_1758481772231","gender":"male","age":25},{"id":1366889389,"screenName":"Kabutopsoccaecati_1758481772898","gender":"male","age":25},{"id":1759078932,"screenName":"Krabbyaut_1758481773218","gender":"male","age":25},{"id":483626954,"screenName":"Golduckvoluptatem_1758481773880","gender":"male","age":25},{"id":1146015352,"screenName":"Rhydonporro_1758481773880","gender":"male","age":25},{"id":1687873865,"screenName":"Vaporeonet_1758481774321","gender":"male","age":25},{"id":251804858,"screenName":"Starmiefacilis_1758481774548","gender":"male","age":25},{"id":348075467,"screenName":"Starmiedoloribus_1758481774554","gender":"male","age":25},{"id":605849650,"screenName":"Primeapequibusdam_1758481774764","gender":"male","age":25},{"id":1077646815,"screenName":"Hypnoearum_1758482079866","gender":"male","age":25},{"id":2104280775,"screenName":"Zubatdelectus_1758482081799","gender":"male","age":25},{"id":1127273437,"screenName":"Vileplumevoluptatum_1758482079862","gender":"male","age":17},{"id":217286520,"screenName":"Victreebelitaque_1758482082370","gender":"male","age":18},{"id":708815133,"screenName":"Alakazamvoluptas_1758482082655","gender":"unknown","age":26},{"id":534939041,"screenName":"Aerodactylsunt_1758482082923","gender":"male","age":25},{"id":1007335160,"screenName":"Mankeyid_1758482082993","gender":"other","age":53},{"id":1771871098,"screenName":"Gastlytemporibus_1758482083034","gender":"male","age":59},{"id":161476829,"screenName":"Vaporeonmollitia_1758482083244","gender":"male","age":25},{"id":1370353929,"screenName":"Ekansexpedita_1758482083322","gender":"invalid","age":56},{"id":984087993,"screenName":"Dratiniut_1758482083566","gender":"male","age":25},{"id":1108040462,"screenName":"Seakingea_1758482083890","gender":"male","age":25},{"id":1954704246,"screenName":"Koffingnecessitatibus_1758482083993","gender":"123","age":45},{"id":1841946503,"screenName":"Pidgeotvel_1758482084207","gender":"male","age":25},{"id":178644358,"screenName":"Goldeenat_1758482084863","gender":"male","age":25},{"id":1174017095,"screenName":"Kabutopssit_1758482085535","gender":"male","age":55},{"id":124568199,"screenName":"Onixvoluptatem_1758482085851","gender":"female","age":23},{"id":432134952,"screenName":"Sandslashnam_1758482086189","gender":"male","age":53},{"id":1104855302,"screenName":"Mukarchitecto_1758482093699","gender":"male","age":60},{"id":2091473568,"screenName":"Charizardad_1758482096835","gender":"male","age":39},{"id":1437467894,"screenName":"Nidoranquia_1758482108189","gender":"male","age":20},{"id":93291334,"screenName":"Dittodolorem_1758482107527","gender":"male","age":25},{"id":211865654,"screenName":"Omanyteexplicabo_1758482108529","gender":"male","age":17},{"id":1271945147,"screenName":"Electabuzzest_1758482108515","gender":"male","age":25},{"id":55822057,"screenName":"Articunovoluptates_1758482109152","gender":"male","age":-1},{"id":853454375,"screenName":"Pidgeotdicta_1758482110151","gender":"unknown","age":47},{"id":1442715003,"screenName":"Omanyteid_1758482110156","gender":"male","age":0},{"id":1404728235,"screenName":"Gravelercorporis_1758482110195","gender":"male","age":18},{"id":623954675,"screenName":"Poliwratherror_1758482111108","gender":"male","age":15},{"id":853871156,"screenName":"Alakazampraesentium_1758482111161","gender":"other","age":45},{"id":1358386266,"screenName":"Snorlaxratione_1758482111789","gender":"male","age":59},{"id":728206077,"screenName":"Voltorbet_1758482112096","gender":"male","age":61},{"id":1758708028,"screenName":"Horseablanditiis_1758482112109","gender":"invalid","age":55},{"id":2069664549,"screenName":"Taurosullam_1758482113050","gender":"male","age":200},{"id":1639314271,"screenName":"Chanseyamet_1758482113073","gender":"","age":41},{"id":1740406800,"screenName":"Butterfreeamet_1758482113387","gender":"male","age":25},{"id":1935991623,"screenName":"Seadravel_1758482114086","gender":"123","age":55},{"id":215625990,"screenName":"Poliwhirlblanditiis_1758482114341","gender":"male","age":25},{"id":735236408,"screenName":"Rattatadolores_1758482115091","gender":"male","age":28},{"id":1329774274,"screenName":"Kadabraquae_1758482115271","gender":"male","age":25},{"id":184925656,"screenName":"Clefairyeos_1758482116068","gender":"male","age":23},{"id":1464580592,"screenName":"Wartortlesed_1758482116220","gender":"male","age":25},{"id":742697365,"screenName":"Sandshrewillo_1758482117054","gender":"male","age":48},{"id":1802770157,"screenName":"Dragonairquam_1758482117195","gender":"male","age":25},{"id":1725211769,"screenName":"Omastaraccusantium_1758482118012","gender":"male","age":49},{"id":32990750,"screenName":"Dewgongid_1758482118783","gender":"male","age":53},{"id":1034946960,"screenName":"Kangaskhanrepudiandae_1758482118955","gender":"male","age":35},{"id":1135535095,"screenName":"Squirtleeligendi_1758482119937","gender":"male","age":18},{"id":658417088,"screenName":"Gyaradosblanditiis_1758482120896","gender":"male","age":47},{"id":2086610326,"screenName":"Golduckaliquam_1758482121850","gender":"female","age":35},{"id":1963339228,"screenName":"Nidokingnihil_1758482123396","gender":"male","age":60},{"id":1759070608,"screenName":"Krabbytempora_1758482134369","gender":"male","age":25},{"id":1808337834,"screenName":"Snorlaxfuga_1758482134369","gender":"male","age":25},{"id":805037372,"screenName":"Chanseyest_1758482134369","gender":"male","age":25},{"id":1940814674,"screenName":"Poliwagquasi_1758482135379","gender":"male","age":25},{"id":1863286829,"screenName":"Gloomconsequuntur_1758482135950","gender":"male","age":25},{"id":1005778774,"screenName":"Raichupossimus_1758482136952","gender":"male","age":25},{"id":452807840,"screenName":"Aerodactylet_1758482137347","gender":"male","age":25},{"id":655583234,"screenName":"Jolteonconsequatur_1758482138312","gender":"male","age":25},{"id":2143476994,"screenName":"Parasectofficiis_1758482138314","gender":"male","age":25},{"id":452714851,"screenName":"Kangaskhanasperiores_1758482138929","gender":"male","age":25},{"id":518853936,"screenName":"Omastarexpedita_1758482139252","gender":"male","age":25},{"id":435803953,"screenName":"Omastarquod_1758482139308","gender":"male","age":25},{"id":1028528608,"screenName":"Gloomculpa_1758482139554","gender":"male","age":25},{"id":1416432963,"screenName":"Taurosnesciunt_1758482616237","gender":"male","age":25},{"id":809130258,"screenName":"Electroderepudiandae_1758482616242","gender":"male","age":17},{"id":1084091412,"screenName":"Dodrionobis_1758482618126","gender":"male","age":25},{"id":1405189876,"screenName":"Ivysauripsa_1758482618639","gender":"male","age":18},{"id":1354921551,"screenName":"Krabbyomnis_1758482618926","gender":"unknown","age":30},{"id":927219446,"screenName":"Cubonedolores_1758482619231","gender":"male","age":25},{"id":2089982344,"screenName":"Grimerlaudantium_1758482619264","gender":"other","age":18},{"id":628023891,"screenName":"Mewtwosoluta_1758482619313","gender":"male","age":59},{"id":1143223638,"screenName":"Victreebelmolestias_1758482619572","gender":"male","age":25},{"id":707107914,"screenName":"Electrodesed_1758482619592","gender":"invalid","age":33},{"id":938867835,"screenName":"Goldeenautem_1758482619919","gender":"male","age":25},{"id":781444575,"screenName":"Dragoniteminima_1758482620258","gender":"123","age":25},{"id":356595015,"screenName":"Shelldervitae_1758482620259","gender":"male","age":25},{"id":1203739844,"screenName":"Krabbytenetur_1758482620611","gender":"male","age":25},{"id":1544091065,"screenName":"Haunterautem_1758482621281","gender":"male","age":25},{"id":443496802,"screenName":"Wigglytuffvoluptate_1758482621938","gender":"male","age":19},{"id":1331785367,"screenName":"Exeggutorenim_1758482622273","gender":"female","age":18},{"id":1604029367,"screenName":"Rattatased_1758482622588","gender":"male","age":17},{"id":2000559922,"screenName":"Butterfreeculpa_1758482623249","gender":"male","age":43},{"id":1399606470,"screenName":"Tangelaneque_1758482629986","gender":"male","age":60},{"id":1138500554,"screenName":"Pidgeyest_1758482640692","gender":"male","age":25},{"id":149083634,"screenName":"Hitmonchanest_1758482641340","gender":"male","age":42},{"id":1544541297,"screenName":"Rapidashnon_1758482641665","gender":"male","age":17},{"id":1493527867,"screenName":"Cuboneveniam_1758482641685","gender":"male","age":25},{"id":301924634,"screenName":"Machamprem_1758482642349","gender":"male","age":-1},{"id":1754221740,"screenName":"Squirtleid_1758482643303","gender":"unknown","age":19},{"id":1814076094,"screenName":"Poliwagodit_1758482643329","gender":"male","age":18},{"id":1282334539,"screenName":"Jigglypuffvoluptatibus_1758482643336","gender":"male","age":0},{"id":167379258,"screenName":"Slowbronesciunt_1758482644289","gender":"other","age":45},{"id":1223029725,"screenName":"Weedleerror_1758482644312","gender":"male","age":15},{"id":2099310928,"screenName":"Koffingmolestiae_1758482644934","gender":"male","age":59},{"id":1107708237,"screenName":"Golemsit_1758482645276","gender":"invalid","age":45},{"id":2085540724,"screenName":"Pinsirmagni_1758482645277","gender":"male","age":61},{"id":1251474526,"screenName":"Clefairysapiente_1758482646241","gender":"","age":46},{"id":1163702375,"screenName":"Clefablequia_1758482646260","gender":"male","age":200},{"id":1076797786,"screenName":"Grimervelit_1758482647204","gender":"123","age":18},{"id":1656917452,"screenName":"Growlitheaut_1758482646584","gender":"male","age":25},{"id":1640000342,"screenName":"Poliwrathinventore_1758482648176","gender":"male","age":38},{"id":344510352,"screenName":"Nidorinoomnis_1758482647544","gender":"male","age":25},{"id":1604803225,"screenName":"Poliwhirlrecusandae_1758482648505","gender":"male","age":25},{"id":725285129,"screenName":"Vileplumeest_1758482649154","gender":"male","age":54},{"id":523345476,"screenName":"Omanytevoluptate_1758482649471","gender":"male","age":25},{"id":1704793282,"screenName":"Onixconsequatur_1758482650122","gender":"male","age":29},{"id":1931718949,"screenName":"Sandshrewfugiat_1758482650438","gender":"male","age":25},{"id":1078836577,"screenName":"Zapdosaccusamus_1758482651099","gender":"male","age":29},{"id":1278762561,"screenName":"Seadrarem_1758482652056","gender":"male","age":54},{"id":136592920,"screenName":"Gravelerquia_1758482652056","gender":"male","age":20},{"id":1108680734,"screenName":"Mewtwoad_1758482653017","gender":"male","age":55},{"id":64298682,"screenName":"Sandshrewvoluptatem_1758482653987","gender":"male","age":19},{"id":1993281276,"screenName":"Bulbasaureos_1758482654952","gender":"female","age":25},{"id":843758722,"screenName":"Kinglerquis_1758482656517","gender":"male","age":60},{"id":2009582680,"screenName":"Clefablesaepe_1758482667500","gender":"male","age":25},{"id":2000712192,"screenName":"Nidorananimi_1758482667500","gender":"male","age":25},{"id":1922393495,"screenName":"Exeggutorvitae_1758482667501","gender":"male","age":25},{"id":619056944,"screenName":"Butterfreead_1758482668474","gender":"male","age":25},{"id":970265865,"screenName":"Goldeenet_1758482669134","gender":"male","age":25},{"id":427034722,"screenName":"Voltorbdeserunt_1758482670089","gender":"male","age":25},{"id":961612404,"screenName":"Kabutopsofficia_1758482670526","gender":"male","age":25},{"id":176001201,"screenName":"Aerodactylfuga_1758482671512","gender":"male","age":25},{"id":333925260,"screenName":"Weedlehic_1758482671512","gender":"male","age":25},{"id":2053683123,"screenName":"Spearowsint_1758482672134","gender":"male","age":25},{"id":1589672064,"screenName":"Flareonerror_1758482672485","gender":"male","age":25},{"id":1393608565,"screenName":"Shellderinventore_1758482672671","gender":"male","age":25},{"id":124228631,"screenName":"Hypnocumque_1758482672776","gender":"male","age":25},{"id":801902589,"screenName":"Seadracumque_1758483105979","gender":"male","age":17},{"id":117765400,"screenName":"Grimeret_1758483107773","gender":"male","age":25},{"id":178509845,"screenName":"Alakazamvelit_1758483105984","gender":"male","age":25},{"id":1653363843,"screenName":"Squirtledoloribus_1758483108230","gender":"male","age":18},{"id":2059369299,"screenName":"Raticatedelectus_1758483108534","gender":"unknown","age":50},{"id":691806980,"screenName":"Wartortleut_1758483108540","gender":"male","age":25},{"id":1679337744,"screenName":"Charmandermagni_1758483108662","gender":"male","age":59},{"id":1965783522,"screenName":"Aerodactylsunt_1758483108752","gender":"other","age":34},{"id":422363509,"screenName":"Onixlabore_1758483108773","gender":"male","age":25},{"id":666512253,"screenName":"Venusaurdebitis_1758483108966","gender":"invalid","age":29},{"id":1234066772,"screenName":"Slowpokequi_1758483108994","gender":"male","age":25},{"id":1406976054,"screenName":"Golemsunt_1758483109200","gender":"male","age":25},{"id":2091887651,"screenName":"Blastoisenumquam_1758483109388","gender":"123","age":47},{"id":1702221460,"screenName":"Slowpokeeos_1758483109407","gender":"male","age":25},{"id":101219593,"screenName":"Kangaskhansed_1758483109827","gender":"male","age":25},{"id":1939927958,"screenName":"Arbokest_1758483110236","gender":"male","age":43},{"id":1721908179,"screenName":"Gengarautem_1758483110439","gender":"female","age":31},{"id":1117245237,"screenName":"Charizardaliquam_1758483110641","gender":"male","age":25},{"id":677375214,"screenName":"Pidgeotatque_1758483111038","gender":"male","age":40},{"id":949920048,"screenName":"Magnetonducimus_1758483119082","gender":"male","age":60},{"id":1890877752,"screenName":"Nidorinorerum_1758483129534","gender":"male","age":25},{"id":314152581,"screenName":"Laprasaperiam_1758483129947","gender":"male","age":30},{"id":1696226782,"screenName":"Wartortlefacere_1758483130163","gender":"male","age":17},{"id":36881960,"screenName":"Machopea_1758483130556","gender":"male","age":-1},{"id":986336812,"screenName":"Dewgongaspernatur_1758483130156","gender":"male","age":25},{"id":359263511,"screenName":"Weepinbellvel_1758483131147","gender":"male","age":0},{"id":1347137162,"screenName":"Weepinbellvoluptates_1758483131179","gender":"unknown","age":53},{"id":1559745369,"screenName":"Arboktotam_1758483131179","gender":"male","age":18},{"id":863087484,"screenName":"Farfetch'dtempore_1758483131738","gender":"male","age":15},{"id":1268627965,"screenName":"Dratinienim_1758483131769","gender":"other","age":53},{"id":420045702,"screenName":"Dratiniut_1758483132168","gender":"male","age":59},{"id":1909901260,"screenName":"Voltorbet_1758483132354","gender":"male","age":61},{"id":1201837353,"screenName":"Staryuat_1758483132349","gender":"invalid","age":50},{"id":925481472,"screenName":"Kabutoarchitecto_1758483132944","gender":"","age":23},{"id":1754164870,"screenName":"Golemvoluptatem_1758483132940","gender":"male","age":200},{"id":378086600,"screenName":"Scytherfugiat_1758483133147","gender":"male","age":25},{"id":1842315948,"screenName":"Victreebelut_1758483133536","gender":"123","age":20},{"id":258491621,"screenName":"Magmartotam_1758483133733","gender":"male","age":25},{"id":1129410028,"screenName":"Kabutoomnis_1758483134126","gender":"male","age":30},{"id":1465466882,"screenName":"Primeapeconsequatur_1758483134324","gender":"male","age":25},{"id":1553897723,"screenName":"Clefablepraesentium_1758483134712","gender":"male","age":37},{"id":1414132329,"screenName":"Fearowexpedita_1758483134906","gender":"male","age":25},{"id":116280332,"screenName":"Venomothlaboriosam_1758483135308","gender":"male","age":44},{"id":476017483,"screenName":"Golemsuscipit_1758483135501","gender":"male","age":25},{"id":652640493,"screenName":"Drowzeevoluptas_1758483135888","gender":"male","age":27},{"id":1765785742,"screenName":"Magmarcommodi_1758483136475","gender":"male","age":23},{"id":266584451,"screenName":"Nidoranexplicabo_1758483136475","gender":"male","age":39},{"id":19056738,"screenName":"Seelomnis_1758483137064","gender":"male","age":16},{"id":771909495,"screenName":"Oddishdistinctio_1758483137447","gender":"male","age":54},{"id":1846031972,"screenName":"Lickitungeveniet_1758483138041","gender":"female","age":21},{"id":1581158120,"screenName":"Wigglytuffcupiditate_1758483143161","gender":"male","age":60},{"id":768357161,"screenName":"Gengarassumenda_1758483153758","gender":"male","age":25},{"id":292653529,"screenName":"Laprasiste_1758483153759","gender":"male","age":25},{"id":936498537,"screenName":"Electrodeiure_1758483153760","gender":"male","age":25},{"id":1699223980,"screenName":"Dugtriovoluptas_1758483154351","gender":"male","age":25},{"id":1252603590,"screenName":"Pidgeottoaut_1758483154722","gender":"male","age":25},{"id":871304824,"screenName":"Eeveefuga_1758483155315","gender":"male","age":25},{"id":1256843969,"screenName":"Krabbyin_1758483155627","gender":"male","age":25},{"id":866878206,"screenName":"Gyaradossed_1758483156221","gender":"male","age":25},{"id":844654606,"screenName":"Rhyhornsit_1758483156221","gender":"male","age":25},{"id":747509131,"screenName":"Porygonautem_1758483156615","gender":"male","age":25},{"id":1194502662,"screenName":"Arcaninenumquam_1758483156803","gender":"male","age":25},{"id":1323878172,"screenName":"Raticateet_1758483156959","gender":"male","age":25},{"id":1917827125,"screenName":"Starmieautem_1758483156997","gender":"male","age":25},{"id":375496303,"screenName":"nick_641491892585976","gender":"male","age":25},{"id":680237722,"screenName":"nick_641521999638530","gender":"male","age":25},{"id":1638719413,"screenName":"nick_641672879756855","gender":"male","age":25},{"id":1568293641,"screenName":"nick_641828026943130","gender":"male","age":25},{"id":49523111,"screenName":"nick_641877370173682","gender":"male","age":25},{"id":1118642430,"screenName":"nick_642295103424389","gender":"male","age":25},{"id":1941301861,"screenName":"nick_642585379599104","gender":"male","age":25},{"id":2076009882,"screenName":"screen_cQiuNb2yJp2050369505","gender":"male","age":18},{"id":1083098936,"screenName":"screen_m01dC3KGuO1008359090","gender":"male","age":18},{"id":1327286118,"screenName":"newNick123","gender":"male","age":25},{"id":544790435,"screenName":"screen_bGx44E2hbs1019827309","gender":"male","age":18},{"id":1019439910,"screenName":"newNick123","gender":"male","age":25},{"id":64529701,"screenName":"newNick123","gender":"male","age":25},{"id":1491225865,"screenName":"newNick123","gender":"male","age":25},{"id":377497263,"screenName":"u1NewNick","gender":"female","age":35},{"id":1821053671,"screenName":"nick_643461812615507","gender":"female","age":25},{"id":1320019439,"screenName":"hackNick","gender":"male","age":25},{"id":1226948658,"screenName":"screen_HkmqqGlgN01687970723","gender":"male","age":18},{"id":954590212,"screenName":"nick_645074153609448","gender":"male","age":25},{"id":389565251,"screenName":"nick_645147276062375","gender":"male","age":25},{"id":41512347,"screenName":"nick_645400355186044","gender":"male","age":25},{"id":52436964,"screenName":"nick_645444755114939","gender":"male","age":25},{"id":688270374,"screenName":"screen_ik5UV3btBj1035101714","gender":"male","age":18},{"id":2089188548,"screenName":"screen_otDrxzO6R41249978109","gender":"male","age":18},{"id":845018125,"screenName":"screen_qxaTpaZnIT1400176798","gender":"male","age":18},{"id":893589464,"screenName":"screen_ar9pJrxHag1436107933","gender":"male","age":18},{"id":500530810,"screenName":"nick_646841190169020","gender":"male","age":25},{"id":866712575,"screenName":"nick_648579556188643","gender":"male","age":25},{"id":231170302,"screenName":"nick_648665821424729","gender":"male","age":25},{"id":451486701,"screenName":"nick_648607715798137","gender":"female","age":30},{"id":1264456473,"screenName":"nick_648639361337196","gender":"female","age":30},{"id":1481544926,"screenName":"nick_648668617621525","gender":"female","age":30},{"id":837260729,"screenName":"nick_648669235625792","gender":"male","age":25},{"id":1452333725,"screenName":"nick_648836971983553","gender":"male","age":25},{"id":2085591553,"screenName":"nick_649190581043360","gender":"male","age":25},{"id":1302233134,"screenName":"nick_649320086909056","gender":"male","age":25},{"id":1677827507,"screenName":"nick_649702478553075","gender":"male","age":25},{"id":1051530307,"screenName":"nick_649729496725459","gender":"male","age":25},{"id":1192207388,"screenName":"nick_651100993704310","gender":"male","age":25},{"id":1245621983,"screenName":"u1NewNick","gender":"female","age":35},{"id":768388593,"screenName":"nick_651249010131847","gender":"male","age":25},{"id":1953902268,"screenName":"hackNick","gender":"male","age":25},{"id":1434853647,"screenName":"newNick123","gender":"male","age":25},{"id":1766903092,"screenName":"u1NewNick","gender":"female","age":35},{"id":563614226,"screenName":"nick_651295294422360","gender":"male","age":25},{"id":806291446,"screenName":"hackNick","gender":"male","age":25},{"id":1495937215,"screenName":"newNick123","gender":"male","age":25},{"id":2019358722,"screenName":"u1NewNick","gender":"female","age":35},{"id":1507514636,"screenName":"nick_654182008044016","gender":"male","age":25},{"id":401749243,"screenName":"hackNick","gender":"male","age":25},{"id":1389764845,"screenName":"newNick123","gender":"male","age":25},{"id":1698922131,"screenName":"nick_654519973882665","gender":"male","age":25},{"id":1980477719,"screenName":"nick_654988143168592","gender":"male","age":25},{"id":308527590,"screenName":"nick_654988908264291","gender":"female","age":30},{"id":1558201078,"screenName":"nick_654989141661658","gender":"male","age":25},{"id":1236977859,"screenName":"nick_654989272078486","gender":"male","age":25},{"id":679892706,"screenName":"nick_655240334348449","gender":"male","age":25},{"id":1000015204,"screenName":"nick_655241091153004","gender":"female","age":30},{"id":2078956820,"screenName":"nick_655241330491453","gender":"male","age":25},{"id":983441853,"screenName":"nick_655241463807597","gender":"male","age":25},{"id":1604244121,"screenName":"u1NewNick","gender":"female","age":35},{"id":441122728,"screenName":"nick_655642368397449","gender":"male","age":25},{"id":1521336504,"screenName":"hackNick","gender":"male","age":25},{"id":1662341264,"screenName":"nick_655642607880215","gender":"male","age":25},{"id":1913245742,"screenName":"u1NewNick","gender":"female","age":35},{"id":1559122833,"screenName":"nick_655845226937343","gender":"male","age":25},{"id":1925373754,"screenName":"hackNick","gender":"male","age":25},{"id":706273758,"screenName":"nick_656437979713309","gender":"male","age":25},{"id":1892025749,"screenName":"nick_656438808589164","gender":"male","age":25},{"id":1502088538,"screenName":"nick_656438956985638","gender":"female","age":30},{"id":1535107374,"screenName":"nick_656439250825736","gender":"male","age":25},{"id":1509865037,"screenName":"nick_656439551238074","gender":"male","age":25},{"id":1052596934,"screenName":"nick_656440404543353","gender":"male","age":25},{"id":128131828,"screenName":"u1NewNick","gender":"female","age":35},{"id":123510233,"screenName":"nick_656451561961967","gender":"male","age":25},{"id":1171829998,"screenName":"hackNick","gender":"male","age":25},{"id":691313638,"screenName":"newNick123","gender":"male","age":25},{"id":38788565,"screenName":"u1NewNick","gender":"female","age":35},{"id":1345098623,"screenName":"u1NewNick","gender":"female","age":35},{"id":1410751366,"screenName":"nick_657248512050665","gender":"male","age":25},{"id":434442850,"screenName":"hackNick","gender":"male","age":25},{"id":916802483,"screenName":"newNick123","gender":"male","age":25},{"id":720591613,"screenName":"nick_657636287096340","gender":"male","age":25},{"id":13164416,"screenName":"nick_657637289539441","gender":"female","age":30},{"id":1938355394,"screenName":"nick_657637702828639","gender":"male","age":25},{"id":625332648,"screenName":"nick_657637998626937","gender":"male","age":25},{"id":2030328717,"screenName":"nick_658352908413579","gender":"male","age":25},{"id":1773792535,"screenName":"nick_658354062307782","gender":"male","age":25},{"id":817772073,"screenName":"nick_658354305201571","gender":"female","age":30},{"id":1798028868,"screenName":"nick_658354758794110","gender":"male","age":25},{"id":54547294,"screenName":"nick_658355216350038","gender":"male","age":25},{"id":843949938,"screenName":"nick_658356759576483","gender":"male","age":25},{"id":1678942301,"screenName":"u1NewNick","gender":"female","age":35},{"id":2078354137,"screenName":"nick_658368924994995","gender":"male","age":25},{"id":2098659939,"screenName":"hackNick","gender":"male","age":25},{"id":1490034076,"screenName":"newNick123","gender":"male","age":25},{"id":1998519515,"screenName":"testAdmin","gender":"male","age":50},{"id":1427543008,"screenName":"Zapdoset_1758620207931","gender":"male","age":25},{"id":883470181,"screenName":"Hitmonleelaborum_1758620207929","gender":"male","age":17},{"id":378711526,"screenName":"Eeveeaut_1758620209782","gender":"male","age":25},{"id":915013573,"screenName":"Marowakrerum_1758620210313","gender":"male","age":18},{"id":138763186,"screenName":"Pinsirharum_1758620210602","gender":"unknown","age":35},{"id":1532952031,"screenName":"Rhyhornqui_1758620210873","gender":"male","age":25},{"id":1815935179,"screenName":"Starmieerror_1758620210943","gender":"other","age":47},{"id":505651824,"screenName":"Electabuzzveniam_1758620210971","gender":"male","age":59},{"id":1116828486,"screenName":"Mankeyeos_1758620211203","gender":"male","age":25},{"id":88028305,"screenName":"Nidoqueenperferendis_1758620211285","gender":"invalid","age":21},{"id":184697164,"screenName":"Omastarqui_1758620211538","gender":"male","age":25},{"id":981911930,"screenName":"Meowthsit_1758620211866","gender":"male","age":25},{"id":1091970416,"screenName":"Dodrioperspiciatis_1758620211975","gender":"123","age":37},{"id":1859791755,"screenName":"Dittoearum_1758620212198","gender":"male","age":25},{"id":2010452562,"screenName":"Hypnocorrupti_1758620212869","gender":"male","age":25},{"id":1756569413,"screenName":"Vaporeonexcepturi_1758620213523","gender":"male","age":27},{"id":592579156,"screenName":"Poliwagsuscipit_1758620213843","gender":"female","age":23},{"id":614065697,"screenName":"Hypnonam_1758620214164","gender":"male","age":39},{"id":1511245026,"screenName":"Sandslashofficia_1758620221641","gender":"male","age":60},{"id":572855550,"screenName":"Marowakvero_1758620224819","gender":"male","age":31},{"id":1111795124,"screenName":"Golemnon_1758620235511","gender":"male","age":25},{"id":1956348362,"screenName":"Wigglytuffullam_1758620236169","gender":"male","age":51},{"id":1524587248,"screenName":"Venusaurneque_1758620236477","gender":"male","age":17},{"id":68647024,"screenName":"Haunteraut_1758620236486","gender":"male","age":25},{"id":1904537249,"screenName":"Laprasut_1758620237130","gender":"male","age":-1},{"id":2039051796,"screenName":"Growlitheipsam_1758620238102","gender":"male","age":18},{"id":1644805321,"screenName":"Seadraaut_1758620238142","gender":"male","age":0},{"id":648967965,"screenName":"Spearowvoluptatem_1758620238135","gender":"unknown","age":55},{"id":271496062,"screenName":"Golducksint_1758620239113","gender":"male","age":15},{"id":1150214272,"screenName":"Magikarpeius_1758620239120","gender":"other","age":51},{"id":1897034552,"screenName":"Nidokingeveniet_1758620239714","gender":"male","age":59},{"id":1247726202,"screenName":"Venonatlaborum_1758620240077","gender":"male","age":61},{"id":1343249672,"screenName":"Blastoisenobis_1758620240091","gender":"invalid","age":41},{"id":1729219739,"screenName":"Butterfreedoloribus_1758620241031","gender":"male","age":200},{"id":1873728160,"screenName":"Pidgeotcorporis_1758620241057","gender":"","age":17},{"id":4209358,"screenName":"Magikarpneque_1758620241359","gender":"male","age":25},{"id":1042365164,"screenName":"Rattataut_1758620242025","gender":"123","age":21},{"id":1509091381,"screenName":"Kinglervoluptas_1758620242316","gender":"male","age":25},{"id":167981736,"screenName":"Laprasplaceat_1758620242991","gender":"male","age":22},{"id":206574965,"screenName":"Seakingsit_1758620243288","gender":"male","age":25},{"id":1834470143,"screenName":"Arbokvoluptatem_1758620243931","gender":"male","age":40},{"id":4395862,"screenName":"Pidgeottempore_1758620244250","gender":"male","age":25},{"id":642776906,"screenName":"Electrodevel_1758620244892","gender":"male","age":40},{"id":614282202,"screenName":"Rhydonest_1758620245877","gender":"male","age":52},{"id":1573652178,"screenName":"Eeveesint_1758620245222","gender":"male","age":25},{"id":1635103608,"screenName":"Hauntersed_1758620246848","gender":"male","age":24},{"id":166703794,"screenName":"Kangaskhanquas_1758620246839","gender":"male","age":42},{"id":695093613,"screenName":"Parasconsectetur_1758620247815","gender":"male","age":52},{"id":765769497,"screenName":"Clefablenesciunt_1758620248454","gender":"male","age":40},{"id":505815493,"screenName":"Koffingquia_1758620249406","gender":"female","age":21},{"id":865736129,"screenName":"Staryuautem_1758620251330","gender":"male","age":60},{"id":1703933515,"screenName":"Clefableveniam_1758620262307","gender":"male","age":25},{"id":1050231784,"screenName":"Dugtrioimpedit_1758620262308","gender":"male","age":25},{"id":1827233338,"screenName":"Squirtleasperiores_1758620262307","gender":"male","age":25},{"id":1091259446,"screenName":"Krabbyoptio_1758620263291","gender":"male","age":25},{"id":1035118186,"screenName":"Mukqui_1758620263902","gender":"male","age":25},{"id":1241125042,"screenName":"Magikarpasperiores_1758620264893","gender":"male","age":25},{"id":1818427259,"screenName":"Pikachuvoluptate_1758620265288","gender":"male","age":25},{"id":1908623233,"screenName":"Hypnocumque_1758620266247","gender":"male","age":25},{"id":207314397,"screenName":"Zapdosquia_1758620266247","gender":"male","age":25}]}

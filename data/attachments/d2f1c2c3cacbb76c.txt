@@ -1,0 +1,1 @@
+Expected status code 400 but got 200. Response: {"id":1091970416,"login":"sixta.green_1758620211975","password":null,"screenName":null,"gender":null,"age":null,"role":null}

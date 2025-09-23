@@ -1,3 +1,0 @@
-Content-Length=0
-Date=Sun, 21 Sep 2025 19:31:49 GMT
-Connection=close
